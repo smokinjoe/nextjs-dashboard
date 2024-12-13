@@ -14,8 +14,6 @@ export default async function Page() {
     numberOfInvoices,
     numberOfCustomers,
   } = await fetchCardData();
-
-  console.log(revenue);
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2x1`}>
